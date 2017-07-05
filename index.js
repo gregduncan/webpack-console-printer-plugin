@@ -12,17 +12,17 @@ class WebpackPrinter {
 	}
 
 	apply(compiler) {
-		let isFirstCompile = true
+		var isFirstCompile = true
 
 		compiler.plugin('done', stats => {
             
 			clearConsole()
 
-			const messages = formatWebpackMessages(stats.toJson({}, true))
-			const hasErrors = stats.hasErrors()
-			const hasWarnings = stats.hasWarnings()
-			const isSuccessful = !messages.errors.length && !messages.warnings.length
-			const showInstructions = isSuccessful && isFirstCompile
+			var messages = formatWebpackMessages(stats.toJson({}, true))
+			var hasErrors = stats.hasErrors()
+			var hasWarnings = stats.hasWarnings()
+			var isSuccessful = !messages.errors.length && !messages.warnings.length
+			var showInstructions = isSuccessful && isFirstCompile
 
 			if (isSuccessful) {
 				console.log(chalk.green('Compiled successfully!'))
