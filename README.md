@@ -58,4 +58,4 @@ new WebpackPrinter({
 
 ## TODO
 
-- [-] Add unit testing.
+- [ ] Add unit testing.
