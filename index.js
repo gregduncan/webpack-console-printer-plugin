@@ -15,7 +15,6 @@ class WebpackPrinter {
 		var isFirstCompile = true
 
 		compiler.plugin('done', stats => {
-            
 			clearConsole()
 
 			var messages = formatWebpackMessages(stats.toJson({}, true))
