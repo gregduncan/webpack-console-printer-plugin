@@ -65,7 +65,7 @@ class WebpackPrinter {
 		})
 
 		compiler.plugin('invalid', () => {
-			console.log(chalk.cyan('Loading'))
+			console.log(chalk.cyan('Loading...'))
 		})
 	}
 }
