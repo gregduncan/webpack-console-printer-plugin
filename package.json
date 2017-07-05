@@ -1,0 +1,23 @@
+{
+  "name": "webpack-console-printer-plugin",
+  "version": "1.0.0",
+  "description": "Simple Webpack plugin for friendly console logging.",
+  "main": "index.js",
+  "scripts": {
+    "pretty": "prettier --print-width 200 --single-quote --use-tabs --tab-width 2 --no-semi --write index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregduncan/webpack-console-printer-plugin.git"
+  },
+  "author": "Greg Duncan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregduncan/webpack-console-printer-plugin/issues"
+  },
+  "homepage": "https://github.com/gregduncan/webpack-console-printer-plugin#readme",
+  "devDependencies": {
+    "chalk": "^2.0.1",
+    "prettier": "^1.5.2"
+  }
+}
