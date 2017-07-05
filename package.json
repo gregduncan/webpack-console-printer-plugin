@@ -4,7 +4,7 @@
   "description": "Simple Webpack plugin for friendly console logging.",
   "main": "index.js",
   "scripts": {
-    "pretty": "prettier --print-width 200 --single-quote --use-tabs --tab-width 2 --no-semi --write index.js"
+    "pretty": "prettier --print-width 200 --single-quote --no-semi --write index.js"
   },
   "repository": {
     "type": "git",
